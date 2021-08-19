@@ -1,0 +1,17 @@
+/* .navbar-item:last-child {
+  margin-top: auto;
+  margin-bottom: 20px;
+} */
+
+.navbar-item {
+  color: #b3b3b3;
+}
+.navbar-item:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #fff;
+  font-weight: bold;
+}

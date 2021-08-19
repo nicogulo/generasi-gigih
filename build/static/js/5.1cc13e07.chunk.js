@@ -1,0 +1,2 @@
+(this["webpackJsonpgenerasi-gigih-homework"]=this["webpackJsonpgenerasi-gigih-homework"]||[]).push([[5],{137:function(i,e,s){"use strict";s.r(e);s(0);var r=s(5);e.default=function(){return Object(r.jsx)("div",{children:Object(r.jsx)("p",{children:"this is Profile"})})}}}]);
+//# sourceMappingURL=5.1cc13e07.chunk.js.map

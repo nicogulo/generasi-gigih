@@ -1,0 +1,67 @@
+.wrapper-track-list {
+  padding: 10px;
+  margin: 10px 0px;
+  display: grid;
+  grid-template-columns: 40px 80px 2fr 1fr 1fr 1fr;
+  grid-template-rows: 30px 30px;
+  grid-template-areas:
+    'number image title  date duration  action'
+    'number image artist date duration  action';
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  border: 1px solid grey;
+  color: #fff;
+  background-color: #212121;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgb(17, 16, 16);
+}
+
+.wrapper-track-list:hover {
+  background-color: #535353;
+}
+
+.track-number {
+  grid-area: number;
+  justify-self: center;
+}
+
+.track-image {
+  grid-area: image;
+}
+
+.track-title {
+  grid-area: title;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.track-artist {
+  grid-area: artist;
+  font-size: 12px;
+  height: 30px;
+}
+
+.track-date {
+  grid-area: date;
+}
+.track-duration {
+  grid-area: duration;
+}
+.track-action {
+  grid-area: action;
+}
+
+.track-action button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1db954;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.track-action button:hover {
+  background-color: green;
+}
